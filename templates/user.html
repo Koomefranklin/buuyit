@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<table>
+<tr>
+    <th>Username</th>
+    <th>Email</th>
+</tr>
+{% for user in Users %}
+    <tr>
+        <td>{{user.username}} </td>
+        <td>{{user.email}}</td>
+    </tr>
+{% endfor %}
+</table>
+<a href="{{url_for('logout')}}">Logout</a><br>
+<!---<p>Welcome {{username.capitalize()}}!</p> !--->
+{% endblock %}

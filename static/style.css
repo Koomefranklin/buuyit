@@ -1,0 +1,33 @@
+home{font: size 30px;
+    font-weight: bold; 
+    color:green;
+    }
+b{color:brown;}
+form{font: size 24px;; 
+}
+body{background-image:url("Nature-Blue.jpg");
+    background-color: black;
+    background-size: cover;
+    }
+.content{
+    max-width: 500px;
+    margin: auto;
+    background-color: aqua;
+    background-size: cover;
+    opacity: 50%;
+    height: 700px;
+    align-items: center;}
+a{color:blue;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration:none;}
+input{font-weight: bold;
+    background-color:rgba(184, 187, 16, 0.856);
+    text-decoration-color: black;
+    align-self:right;
+    }
+flash {color: red;
+    font-style: bold;
+    font-weight:bolder;
+    font-family: monospace;
+    }
